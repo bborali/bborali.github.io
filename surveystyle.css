@@ -17,7 +17,9 @@ div .form{
 
 #question{
   border-radius: 5px;
-  background-color: #f2f2f2;
+/*  background-color: #f2f2f2;*/
+background: rgb(241,247,255);
+background: radial-gradient(circle, rgba(241,247,255,0.614159058988764) 0%, rgba(241,225,255,0.614159058988764) 100%);
   padding: 20px;
   margin: 8px auto;
   display: table;
@@ -26,8 +28,10 @@ div .form{
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+/*  background-color: #4CAF50;*/
   color: white;
+  background: rgb(255,176,158);
+  background: radial-gradient(circle, rgba(255,176,158,1) 0%, rgba(233,200,252,1) 100%);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -37,4 +41,5 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+
 }
