@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html, body{
+	width: 100%;
+	text-align: left;
+	font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+img{
+  width: 100%;
+  height: auto;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+}
+
+#clicklink{
+  font-size: 20px;
+}
+
+
+div .form{
+	width: 45%;
+	align-content: center;
+}
+
+#question{
+  border-radius: 5px;
+background: rgb(241,247,255);
+background: radial-gradient(circle, rgba(241,247,255,0.614159058988764) 0%, rgba(241,225,255,0.614159058988764) 100%);
+  padding: 20px;
+  margin: 8px auto;
+  display: table;
+
+}
+
+#fname, #lname, #eemail{
+  margin-left: 10px;
+}
+
+label{
+  font-size: 20px;
+}
+
+label[for="fname"], label[for="lname"], label[for="eemail"] {
+    width: 100px;
+  display: inline-block;
+  align-self: 
+}
+.options, #options {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+textarea{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+textarea, input[type=text], input[type=email] {
+  border-radius: 5px;
+  border: 1px solid #da00ff;
+  padding: 5px;
+}
+
+input[type=submit] {
+  width: 100%;
+  color: white;
+  background: rgb(255,176,158);
+  background: radial-gradient(circle, rgba(255,176,158,1) 0%, rgba(233,200,252,1) 100%);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#one{
+    margin-top: 20px;
+  margin-left: 40px;
+}
+
+input[type=submit]:hover {
+background: rgb(223,171,255);
+background: linear-gradient(90deg, rgba(223,171,255,1) 0%, rgba(255,214,205,0.6152124297752809) 50%, rgba(223,171,255,1) 100%);
+}
+footer p{
+  font-size: 15px;
+}

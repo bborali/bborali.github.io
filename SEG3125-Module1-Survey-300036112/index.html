@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="surveystyle.css">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+	<title>User Interface Review: the Atlas of Emotions</title>
+</head>
+<body>
+
+
+<p>User Interface Review: the Atlas of Emotions</p>
+<p id="clicklink">Click on the image to visit the website..</p>
+
+
+<div class=form>
+	<div class="image">
+		<a href="http://atlasofemotions.org">
+			<img src="homepage.png" alt="the Atlas of Emotions">	
+		</a>
+	</div>
+	
+
+	<p>Tell us what you think!</p>
+	<form action="actionpage.php" method="post">
+		
+
+		<div class="form" id="question" >
+
+			<label for="fname">First name</label> 
+			<input type="text" name="fname" id="fname">
+			<br><br>
+
+			<label for="lname" class="personal">Last name</label>
+			<input type="text" name="lname" id="lname">
+			<br><br>
+
+			<label for="eemail" class="personal">E-mail</label>
+			<input type="email" name="eemail" id="eemail">
+			<br><br>
+			<label for="gender"> What is your gender?</label>
+				<div class="options">
+					<input type="radio" name="gender" id="male" value="male">Male
+					<input type="radio" name="gender" id="female" value="female">Female
+					<input type="radio" name="gender" id="othergender" value="othergender">Other
+				</div>
+
+		</div>
+
+		<div class="form" id="question" >
+		<label for="q1">Overall, how well does this website meet your needs?</label>
+			<div class="options">
+				 <input type="radio" name="q1" id="15" value="5">Extremely well<br><br>
+				 <input type="radio" name="q1" id="14" value="4">Very well<br><br>
+				 <input type="radio" name="q1" id="13" value="3">Somewhat well<br><br>
+				 <input type="radio" name="q1" id="12" value="2">Not so well<br><br>
+				 <input type="radio" name="q1" id="11" value="1">Terrible<br><br>
+			</div>
+		</div>
+
+		 
+		<div class="form" id="question" >
+			 <label for="q2">Which parts would you recommend us to modify/improve?</label>
+			 <div class="options">
+				 <input type="checkbox" name="q2" id="25" value="5">Everything is moving around<br><br>
+				 <input type="checkbox" name="q2" id="24" value="4">Fonts aren't readable<br><br>
+				 <input type="checkbox" name="q2" id="23" value="3">I didn't like this color scheme<br><br>
+				 <input type="checkbox" name="q2" id="22" value="2">The information is too fragmented<br><br>
+				 <input type="checkbox" name="q2" id="21" value="1">Organization of the content isn't clear enough<br><br>		 	
+			 </div>
+			
+		</div>
+
+
+		<div class="form" id="question" >
+			 <label for="q3">Did the UI help you to have a better understanding on the topic?</label>
+			 <div>
+				  <select id="options" name="q3">
+				  	<option value="yes">Yes!
+				    <option value="no">No
+				    <option value="maybe">Maybe a little
+				  </select>				 	
+			 </div>
+		</div>
+
+		<div class="form" id="question" >
+			 <label for="before">Have you used this site before?</label>
+			 <div>
+				  <select id="options" name="before">
+				  	<option value="yes">Yes
+				    <option value="no">No
+				  </select>				 	
+			 </div>
+		</div>
+
+			
+
+		<div class="form" id="question" >
+			 <label for="q5">Did it take you more or less time than you expected to find what you were looking for on the website?</label><br>
+			 <div class="options">
+				 <input type="radio" name="q5" id="55" value="5">A lot less time<br><br>
+				 <input type="radio" name="q5" id="54" value="4">Less time<br><br>
+				 <input type="radio" name="q5" id="53" value="3">About what I expected<br><br>
+				 <input type="radio" name="q5" id="52" value="2">More time<br><br>
+				 <input type="radio" name="q5" id="51" value="1">A lot more time<br><br>		
+			 </div>
+			 		
+		</div>
+
+			<div class="form" id="question">
+				 <label for="visited_before">Have you visited a similar site before?</label><br>
+				 <div class="options">
+				 	<input type="radio" name="visited_before" value="yes">Yes<br><br>
+				 	<input type="radio" name="visited_before" value="no">No<br><br>
+				 	<input type="radio" name="visited_before" value="idk">I don't remember<br><br>
+				 </div>
+			</div>
+			
+
+		<div class="form" id="question" >
+			 <label for="q6">How easy is it to understand the information on this website?</label><br>
+			 <div class="options">
+			 	 <input type="radio" name="q6" id="65" value="5">Extremely easy<br><br>
+				 <input type="radio" name="q6" id="64" value="4">Very easy<br><br>
+				 <input type="radio" name="q6" id="63" value="3">Easy<br><br>
+				 <input type="radio" name="q6" id="62" value="2">Not so easy<br><br>
+				 <input type="radio" name="q6" id="61" value="1">Extremely hard<br><br>
+			 </div>
+					
+		</div>
+		
+		 
+		<div class="form" id="question" >
+			<label for="scale">How likely is it that you would recommend this website to a friend or colleague?</label><br><br>
+			<span id="one">1</span>
+			<input type="radio" name="scale" value="1">
+			<input type="radio" name="scale" value="2">
+			<input type="radio" name="scale" value="3">
+			<input type="radio" name="scale" value="4">
+			<input type="radio" name="scale" value="5">
+			<span>5</span>			
+		</div>
+
+		<div class="form" id="question" >
+			<label for="message">Feel free to leave us your comments!</label><br> 
+			  <textarea name="message"></textarea>			
+		</div>
+
+		<input type="submit" value="Submit">
+
+
+	</form>	
+</div>
+
+
+
+<footer>
+  <p>Website designed by Beril Borali 300036112</p>
+</footer>
+
+
+</body>
+</html>
