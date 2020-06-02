@@ -3,126 +3,126 @@
 
 var products = [
 	{
-		name: "brocoli",
+		name: "brocoli	",
 		vegetarian: true,
 		glutenFree: true,
 		organic: false,
 		price: 1.99
 	},
 		{
-		name: "brocoli organic",
+		name: "brocoli organic	",
 		vegetarian: true,
 		glutenFree: true,
 		organic: true,
 		price: 3.99
 	},
 	{
-		name: "bread",
+		name: "bread	",
 		vegetarian: true,
 		glutenFree: false,
 		organic: false,
 		price: 2.35
 	},
 	{
-		name: "bread organic",
+		name: "bread organic	",
 		vegetarian: true,
 		glutenFree: false,
 		organic: true,
 		price: 4.35
 	},
 	{
-		name: "salmon",
+		name: "salmon	",
 		vegetarian: false,
 		glutenFree: true,
 		organic: false,
 		price: 10.00
 	},
 	{
-		name: "salmon organic",
+		name: "salmon organic	",
 		vegetarian: false,
 		glutenFree: true,
 		organic: true,
 		price: 15.00
 	},
 	{
-		name: "oatmeal",
+		name: "oatmeal	",
 		vegetarian: true,
 		glutenFree: false,
 		organic: false,
 		price: 4.99
 	},
 	{
-		name: "oatmeal organic",
+		name: "oatmeal organic	",
 		vegetarian: true,
 		glutenFree: false,
 		organic: true,
 		price: 7.99
 	},
 	{
-		name: "groudbeef",
+		name: "groudbeef	",
 		vegetarian: false,
 		glutenFree: true,
 		organic: false,
 		price: 13.00
 	},
 	{
-		name: "groudbeef organic",
+		name: "groudbeef organic	",
 		vegetarian: false,
 		glutenFree: true,
 		organic: true,
 		price: 18.00
 	},
 	{
-		name: "pineapple",
+		name: "pineapple	",
 		vegetarian: true,
 		glutenFree: true,
 		organic: false,
 		price: 3.50
 	},
 	{
-		name: "pineapple organic",
+		name: "pineapple organic	",
 		vegetarian: true,
 		glutenFree: true,
 		organic: true,
 		price: 5.50
 	},
 	{
-		name: "tomato",
+		name: "tomato	",
 		vegetarian: true,
 		glutenFree: true,
 		organic: false,
 		price: 3.70
 	},
 	{
-		name: "tomato organic",
+		name: "tomato organic	",
 		vegetarian: true,
 		glutenFree: true,
 		organic: true,
 		price: 5.20
 	},
 	{
-		name: "frozen pepperoni pizza",
+		name: "frozen pepperoni pizza	",
 		vegetarian: false,
 		glutenFree: false,
 		organic: false,
 		price: 7.60
 	},
 	{
-		name: "croissant",
+		name: "croissant	",
 		vegetarian: true,
 		glutenFree: false,
 		organic: false,
 		price: 1.70
 	},
 	{
-		name: "chicken breast",
+		name: "chicken breast	",
 		vegetarian: false,
 		glutenFree: true,
 		organic: false,
 		price: 7.30
 	},
 	{
-		name: "chicken breast organic",
+		name: "chicken breast organic	",
 		vegetarian: false,
 		glutenFree: true,
 		organic: true,
