@@ -23,7 +23,7 @@ var products = [
 	},
 	{
 		name: "bread	",
-		image: "images/bread.JPG",
+		image: "/images/bread.JPG",
 		vegetarian: true,
 		glutenFree: false,
 		organic: false,
