@@ -5,7 +5,7 @@
 var products = [
 	{
 		name: "brocoli	",
-		image: "images/broccoli.JPG",
+		image: "/images/broccoli.JPG",
 		vegetarian: true,
 		glutenFree: true,
 		organic: false,
@@ -14,7 +14,7 @@ var products = [
 	},
 		{
 		name: "brocoli organic	",
-		image: "images/broccoli.JPG",
+		image: "/images/broccoli.JPG",
 		vegetarian: true,
 		glutenFree: true,
 		organic: true,
