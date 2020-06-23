@@ -448,6 +448,8 @@ $(function(){
                          <div class="form-group ">
                           <label for="datepicker">Select a date</label>
                             <input type="text"  class="form-control" id="datepicker" required>
+                            <div class="valid-feedback"></div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
                           </div>
                               <script>
                               $( function() {
@@ -468,6 +470,8 @@ $(function(){
                                         <option value="16-17">4pm-5pm</option>
 
                                     </select>
+                              <div class="valid-feedback"></div>
+                              <div class="invalid-feedback">Please fill out this field.</div>
                             </div>
                         </div>
                     </div>
@@ -481,6 +485,9 @@ $(function(){
                               <label for="cc-number">Credit Card Number</label>
                               <input type="text"  class="form-control" id="cc-number" pattern="([0-9]{16})" required="required" placeholder="0000444400004444" required>
                               <span id="show-cc-label"></span>
+
+                              <div class="valid-feedback"></div>
+                              <div class="invalid-feedback">Please fill out this field.</div>
                             
                           </div>
                         </div>
@@ -489,6 +496,9 @@ $(function(){
                           <div class="form-group">
                               <label for="cc-name">Name of the Credit Card Holder</label>
                               <input type="text"  class="form-control" id="cc-name" required="required" placeholder="Name" required>
+
+                              <div class="valid-feedback"></div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
                           </div>
                         </div>
                     </div>                    
@@ -499,6 +509,10 @@ $(function(){
                           <div class="form-group ">
                               <label for="cc-expiration">Expiration date</label>
                               <input type="text"  class="form-control" id='cc-expiration' pattern="([0-9]{2}[/][2][0-9])" required="required" placeholder="MM/YY example: 06/21" required>  
+
+                              <div class="valid-feedback"></div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+
                           </div>
                         </div>
 
@@ -507,6 +521,10 @@ $(function(){
                               <label for="cc-cvv">CVV</label>
                               <input type="text"  class="form-control" id="cc-cvv" pattern="([0-9]{3})" required="required" placeholder="CVV" required>
                               <i class="i-icon-payment i-icon-cvv2"></i>
+
+                              <div class="valid-feedback"></div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+
                           </div>
                         </div>
                     </div>
@@ -523,6 +541,7 @@ $(function(){
                 <div class="form-group form-check">
                       <label class="form-check-label">
                         <input class="form-check-input" type="checkbox" name="remember" required> I accept the terms and  conditions.
+
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Check this checkbox to continue.</div>
                       </label>
@@ -558,6 +577,7 @@ $(function(){
   <div class="container p-3 mt-3 mb-3 border bg-light">
     <h4 id="contact"></h4>
             <div class="container">
+
                 <h2><img src="https://img.icons8.com/ios-filled/30/000000/email.png"/> Contact Us</h2>
                 <p>Feel free to ask us your questions or send us your feedback!</p>
                 <form action="/action_page.php" class="needs-validation" novalidate>
@@ -566,16 +586,21 @@ $(function(){
                                 <div class="form-group">
                                   <label for="customer_firstname">Your Name</label>
                                   <input type="text" class="form-control" id="customer_firstname" placeholder="First Name" name="customer_firstname" required>
+
                                   <div class="valid-feedback">Valid.</div>
                                   <div class="invalid-feedback">Please fill out this field.</div>
+
                                 </div>
                             </div>
+
                             <div class="col">
                                <div class="form-group">
                                   <label for="email">E-mail</label>
                                   <input type="text" class="form-control" id="email" placeholder="example@gmail.com" name="email" required>
+
                                   <div class="valid-feedback">Valid.</div>
                                   <div class="invalid-feedback">Please fill out this field.</div>
+
                                 </div>
                             </div>
 
@@ -583,7 +608,11 @@ $(function(){
                     
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Tell us what you think!</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type your question/feedback here" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type your question/feedback here" rows="3" required></textarea>
+
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                        
                     </div>
                     <button type="submit" class="btn btn-success">Send!</button>
                 </form>
