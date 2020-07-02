@@ -1,0 +1,107 @@
+<html lang="en-US">
+<head>
+    <title>Survey Analysis</title>
+    <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+</head>
+<body>
+    <h1>My List</h1>
+    <div id="survey-table">
+
+         <h2>First Name</h2>
+         <ul>
+            <% for (var i=0; i<results[0].length; i++){ %>
+                <li><%= results[0][i].fname %> :  <%= results[0][i].count %></li>
+            <% } %>
+         </ul>
+         <h2>Last Name</h2>
+         <ul>
+            <% for (var i=0; i<results[1].length; i++){ %>
+                <li><%= results[1][i].lname %> :  <%= results[1][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Email</h2>
+         <ul>
+            <% for (var i=0; i<results[2].length; i++){ %>
+                <li><%= results[2][i].eemail %> :  <%= results[2][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Gender</h2>
+         <ul>
+            <% for (var i=0; i<results[3].length; i++){ %>
+                <li><%= results[3][i].gender %> :  <%= results[3][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Overall, how well does this website meet your needs?</h2>
+         <ul>
+            <% for (var i=0; i<results[4].length; i++){ %>
+                <li><%= results[4][i].q1 %> :  <%= results[4][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Which parts would you recommend us to modify/improve?</h2>
+         <ul>
+            <% for (var i=0; i<results[5].length; i++){ %>
+                <li><%= results[5][i].q2 %> :  <%= results[5][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Did the UI help you to have a better understanding on the topic?</h2>
+         <ul>
+            <% for (var i=0; i<results[6].length; i++){ %>
+                <li><%= results[6][i].q3 %> :  <%= results[6][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Have you used this site before?</h2>
+         <ul>
+            <% for (var i=0; i<results[11].length; i++){ %>
+                <li><%= results[11][i].before %> :  <%= results[11][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Did it take you more or less time than you expected to find what you were looking for on the website?</h2>
+         <ul>
+            <% for (var i=0; i<results[12].length; i++){ %>
+                <li><%= results[12][i].q5 %> :  <%= results[12][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Have you visited a similar site before?</h2>
+         <ul>
+            <% for (var i=0; i<results[10].length; i++){ %>
+                <li><%= results[10][i].visited_before %> :  <%= results[10][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>How easy is it to understand the information on this website?</h2>
+         <ul>
+            <% for (var i=0; i<results[7].length; i++){ %>
+                <li><%= results[7][i].q6 %> :  <%= results[7][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>How likely is it that you would recommend this website to a friend or colleague?</h2>
+         <ul>
+            <% for (var i=0; i<results[9].length; i++){ %>
+                <li><%= results[9][i].scale %> :  <%= results[9][i].count %></li>
+            <% } %>
+         </ul>
+
+         <h2>Additional comments</h2>
+         <ul>
+            <% for (var i=0; i<results[8].length; i++){ %>
+                <li><%= results[8][i].message %> :  <%= results[8][i].count %></li>
+            <% } %>
+         </ul>
+
+         
+         
+
+         
+
+    </div>
+</body>
+</html>
